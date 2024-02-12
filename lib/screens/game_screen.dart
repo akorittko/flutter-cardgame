@@ -30,7 +30,7 @@ class _GameScreenState extends State<GameScreen> {
           TextButton(
             onPressed: () async {
               final players = [
-                PlayerModel(name: "Tyler", isHuman: true),
+                PlayerModel(name: "Alex", isHuman: true),
                 PlayerModel(name: "Bot", isHuman: false),
               ];
 
